@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Person>
+    <LastName val="Евгений"/>
+    <FirstName val="Мокрушин"/>
+    <Patronym val="Павлович"/>
+    <Age val="38"/>
+    <Pets val="cat"/>
+    <desired_salary val="60"/>
+</Person>

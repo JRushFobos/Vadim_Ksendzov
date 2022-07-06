@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Person>
+    <favorite_movie val="Reach for Heaven"/>
+    <favourite_TV_show="Dr. House"/>
+    <favorite_food="cutlet with puree"/>
+    <favorite_time_of_the_year="winter"/>
+    <Pets val="thailand"/>
+</Person>

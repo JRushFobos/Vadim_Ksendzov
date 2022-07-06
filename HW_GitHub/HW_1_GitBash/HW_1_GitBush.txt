@@ -1,0 +1,114 @@
+1) Посмотреть где я
+pwd
+
+2) Создать папку
+mkdir pasha
+
+3) Зайти в папку
+pushd pasha
+
+4) Создать 3 папки
+mkdir katia zhenia sasha
+
+5) Зайти в любоую папку
+cd katia
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch home.txt work.txt student.txt school.json shop.json
+
+7) Создать 3 папки
+mkdir maxim ksusha miroslav
+
+8) Вывести список содержимого папки
+ls
+
+9) Открыть любой txt файл
+nano home.txt или home.txt 
+
+10) Написать туда что-нибудь, любой текст
+Test1 -> Enter
+Test2 -> Enter
+Test3 -> Enter
+
+11) Cохранить и выйти.
+Сохранить и выйти в vim- Esc + :wq
+Сохранить и выйти в nano - Ctrl +X, y для сохранения, названия файла - Enter
+
+12) Выйти из папки на уровень выше
+cd ..
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv katia/{school.json,shop.json} maxim
+
+
+14) Cкопировать любые 2 файла, которые вы создали, в любую другую папку. неверно
+mv katia/{work.txt,student.txt} ksusha
+
+
+
+15) Найти файл по имени
+find -name 'shop.json'
+
+
+16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+tail -f shop.json
+
+
+$ tail -f shop.json
+Test
+Test
+Test
+
+17) Вывести несколько первых строк из текстового файла
+head -4 shop.json 
+выведет первые 4 строки
+
+18) Вывести несколько последних строк из текстового файла
+tail shop.json
+
+19) Просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less -f home.txt
+
+20) вывести дату и время
+date
+
+Задание*
+1*) Запустил Cygwin64 Terminal и нужно вставить свои данные ещё
+вставил curl 'http://162.55.220.72:5005/terminal-hw-request' нажал Enter
+терминал вернул JSON
+{
+  "Intro": "Hello!! This is your the first response from server",
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_meth
+od?name=(set_your_String)&age=(set_your_number)",
+    "result": [
+      "Your_String",
+      "Your_number"
+    ]
+  }
+}
+
+curl "http://162.55.220.72:5005/get_method?name=Zhenia&age=38"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    24  100    24    0     0     47      0 --:--:-- --:--:-- --:--:--    47[
+  "Zhenia",
+  "38"
+]
+
+2*) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 у тебя запускался скрипт ?
+touch script.sh
+nano script.sh
+прописываем команды
+	cd foldername1 
+        mkdir foldername11 foldername22 foldername33 
+        cd foldername11 
+        touch 1.txt 2.txt 3.txt 4.json 5.json 
+        mkdir foldername111 foldername222 foldername333 
+        ls 
+        cd .. 
+        mv foldername11/{2.txt,3.txt} foldername22
+Сохранить
+запустить скрипт ./script.sh
+проверить содержание папок и файлов
+проверено скрипт отработал

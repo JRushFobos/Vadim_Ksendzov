@@ -1,0 +1,2 @@
+ Освим навыки работы с Postgres, HTTP, Jmeter
+ Узнаем что такое  SDLC, STLC, Scrum

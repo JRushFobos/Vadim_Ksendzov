@@ -1,0 +1,15 @@
+Id
+Title
+Progect
+Precondition
+Steps
+Enviroment
+Actual result
+Expected result
+Priority
+Severity
+Status
+Autor
+Sing to
+Attachments
+

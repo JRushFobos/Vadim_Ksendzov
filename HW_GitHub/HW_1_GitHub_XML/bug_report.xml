@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+  <Person>
+    <ID val="A1"/>
+    <Title val="Нажатие кнопки 'Перейти в каталог' на главной странице не перенаправляет на страницу Каталога"/>
+    <Project val="Сайт магазина товаров 'Штучка'"/>
+    <STR val=" 1. Зайти на главную страницу сайта (ссылка_на_сайт),
+ 2. Нажать кнопку Каталог"/>
+    <Enviroment val=" OS Windows 10 x64 build 19043,
+ Browser Google Chrome v96.0.4664.45 x64
+ Component Кнопка Каталог,
+ Build 0.5.7"/>
+    <Actual_result val="Нажатие кнопки Каталог НЕ перенаправляет на страницу Каталога"/>
+    <Expected_result result val="Нажатие кнопки Каталог перенаправляет на страницу Каталога"/>
+    <Severity result val="Critical"/>
+    <Priority result val="High"/>
+    <Status result val="Open"/>
+    <Author result val="Вадим Владиславович"/>
+    <Sign result val="Ололошка Кеков"/>
+    <Attachments result val="ссылка_на_картинку_или_видео_с_багом"/>
+  </Person>

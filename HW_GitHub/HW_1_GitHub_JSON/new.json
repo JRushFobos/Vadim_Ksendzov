@@ -1,0 +1,8 @@
+{
+    "name":"Евгений",
+    "surname":"Мокрушин",
+    "patronymic":"Павлович",
+    "age":38,
+    "pets":["cat","dog"],
+    "desired_salary":60
+}
